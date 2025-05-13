@@ -1,0 +1,190 @@
+/* 🌟 General Styling */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f7fc;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  box-sizing: border-box;
+}
+
+/* main container*/
+.fullscreen-primary {
+  width: 100vw;
+  height: 100vh;
+  background-color: #0d6efd;
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.custom-flex {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* 🌟 Header */
+h3 {
+  text-align: center;
+  color: #dee1e4;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+/* 🌟 Form Styling */
+form {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 1%;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  font-weight: 500;
+  color: #444;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 6px;
+  font-size: 16px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.form-group input:focus {
+  border-color: #3498db;
+  box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+}
+
+/* 🌟 Buttons */
+.btn {
+  padding: 10px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.btn-success {
+  background-color: #27ae60;
+  color: white;
+  border: none;
+}
+
+.btn-success:hover {
+  background-color: #219150;
+}
+
+.btn-danger {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+}
+
+.btn-danger:hover {
+  background-color: #c0392b;
+}
+
+
+/* 🌟 Table Styling */
+
+.table-container {
+ max-height: 80%;
+ overflow-y: auto;
+}
+
+table {
+  width: 100%;
+  background: white;
+  border-collapse: collapse;
+  margin-top: 20px;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 14px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #3498db;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.95rem;
+}
+
+td {
+  font-size: 0.9rem;
+}
+
+/* 🌟 Highlight Table Rows */
+tr:hover {
+  background-color: #f5f5f5;
+}
+
+/* 🌟 Responsive Table */
+@media (max-width: 768px) {
+  table {
+    overflow-x: auto;
+    white-space: nowrap; 
+  }
+
+  th, td {
+    font-size: 0.85rem;
+  }
+
+  tr {
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+
+/* 🌟 Links */
+a {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.list-group {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  margin-top: 1%;
+}
+
+.list-group-item {
+  padding: 0.75rem 1.25rem;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-bottom: none;
+  cursor: pointer;
+}
+
+/* Last item should have a bottom border */
+.list-group-item:last-child {
+  border-bottom: 1px solid #ddd;
+}
+
+.list-group-item:hover {
+  background-color: #f8f9fa;
+}
